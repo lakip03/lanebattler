@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0819c9224e6e4473a915bd792e82ef66, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  levelNumber: 1
+  waves:
+  - waveNumber: 0
+    spawnGroups:
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 1
+      laneIndex: 0
+      spawnDelay: 1.18
+      groupStartTimeInSeconds: 0
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 1
+      laneIndex: 1
+      spawnDelay: 5.33
+      groupStartTimeInSeconds: 0
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 1
+      laneIndex: 2
+      spawnDelay: 3.36
+      groupStartTimeInSeconds: 0
+  - waveNumber: 1
+    spawnGroups:
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 2
+      laneIndex: 0
+      spawnDelay: 8.17
+      groupStartTimeInSeconds: 0
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 1
+      laneIndex: 1
+      spawnDelay: 5.33
+      groupStartTimeInSeconds: 4.08
+    - enemy: {fileID: 11400000, guid: 125c67f8fad91344592bdb26930cb38f, type: 2}
+      count: 1
+      laneIndex: 2
+      spawnDelay: 3.41
+      groupStartTimeInSeconds: 1.16
+  - waveNumber: 2
+    spawnGroups:
+    - enemy: {fileID: 11400000, guid: 125c67f8fad91344592bdb26930cb38f, type: 2}
+      count: 1
+      laneIndex: 0
+      spawnDelay: 8.17
+      groupStartTimeInSeconds: 0
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 1
+      laneIndex: 1
+      spawnDelay: 5.33
+      groupStartTimeInSeconds: 4.08
+    - enemy: {fileID: 11400000, guid: 125c67f8fad91344592bdb26930cb38f, type: 2}
+      count: 1
+      laneIndex: 1
+      spawnDelay: 3.36
+      groupStartTimeInSeconds: 1.16
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 2
+      laneIndex: 2
+      spawnDelay: 3.36
+      groupStartTimeInSeconds: 1.16
+  - waveNumber: 3
+    spawnGroups:
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 2
+      laneIndex: 0
+      spawnDelay: 5
+      groupStartTimeInSeconds: 0
+    - enemy: {fileID: 11400000, guid: 125c67f8fad91344592bdb26930cb38f, type: 2}
+      count: 1
+      laneIndex: 1
+      spawnDelay: 0
+      groupStartTimeInSeconds: 0
+    - enemy: {fileID: 11400000, guid: 0c7cfc2d5aa42b04c9845e46bae4bd86, type: 2}
+      count: 1
+      laneIndex: 2
+      spawnDelay: 1
+      groupStartTimeInSeconds: 0
+    - enemy: {fileID: 11400000, guid: 125c67f8fad91344592bdb26930cb38f, type: 2}
+      count: 1
+      laneIndex: 2
+      spawnDelay: 4.9
+      groupStartTimeInSeconds: 1.62
+  - waveNumber: 4
+    spawnGroups:
+    - enemy: {fileID: 11400000, guid: a891be460789baf41b57a22aaac42026, type: 2}
+      count: 2
+      laneIndex: 0
+      spawnDelay: 5
+      groupStartTimeInSeconds: 1.62
+    - enemy: {fileID: 11400000, guid: 2f82f42c82e5fef48960bedf88d82702, type: 2}
+      count: 3
+      laneIndex: 1
+      spawnDelay: 2.66
+      groupStartTimeInSeconds: 2.68
+    - enemy: {fileID: 11400000, guid: 1028ed9d4438ff24fa7c718030fa6296, type: 2}
+      count: 2
+      laneIndex: 2
+      spawnDelay: 2
+      groupStartTimeInSeconds: 1.74
+    - enemy: {fileID: 11400000, guid: 125c67f8fad91344592bdb26930cb38f, type: 2}
+      count: 4
+      laneIndex: 2
+      spawnDelay: 4.9
+      groupStartTimeInSeconds: 1.62
+    - enemy: {fileID: 11400000, guid: a891be460789baf41b57a22aaac42026, type: 2}
+      count: 3
+      laneIndex: 2
+      spawnDelay: 6.64
+      groupStartTimeInSeconds: 0.98

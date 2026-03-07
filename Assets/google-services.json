@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "343070414918",
+    "project_id": "nono-battle-c64ee",
+    "storage_bucket": "nono-battle-c64ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343070414918:android:3a7f85b7abbc3e4b109247",
+        "android_client_info": {
+          "package_name": "me.nikolaa.nonobattle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCamLDXBupJ5J3T9uY2OZx8jz-lTQS5VZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
